@@ -1,5 +1,5 @@
-import { type Config } from "drizzle-kit";
-
+import { drizzle } from "drizzle-orm/neon-http";
+import { neon } from "@neondatabase/serverless";
 import { env } from "~/env";
 
 export default {
